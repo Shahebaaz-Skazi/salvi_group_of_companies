@@ -1,0 +1,55 @@
+# Dependencies
+node_modules/
+web/node_modules/
+/.pnp
+.pnp.*
+
+# Next.js build output
+web/.next/
+.next/
+out/
+build/
+dist/
+
+# Environment files
+.env
+.env*.local
+web/.env
+web/.env*.local
+!.env.example
+!web/.env.example
+
+# Temporary scratch & debug scripts
+web/fix*
+web/add_*
+web/update_*
+web/anim*
+web/clean.py
+web/constants.py
+web/glow.py
+web/intro.py
+web/lh.json
+web/motion.py
+web/overlays.py
+web/trust*
+web/remove_log.js
+web/measure_offsets.js
+web/write_overlay.js
+read_docx.py
+
+# Logs and debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+*.log
+
+# System files
+.DS_Store
+Thumbs.db
+*.tsbuildinfo
+next-env.d.ts
+web/next-env.d.ts
+
+# IDE
+.vscode/
+.idea/
